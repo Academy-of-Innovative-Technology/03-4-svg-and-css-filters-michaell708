@@ -6,3 +6,47 @@ html {
 img {
   width: 100px;
 }
+
+.apple {
+  filter: url(#filter);
+}
+
+.blur {
+  filter: blur(5px);
+}
+
+.brightness {
+filter: brightness(0.4);
+}
+
+.contrast {
+filter: contrast(200%);
+}
+
+.drop-shadow {
+filter: drop-shadow(16px 16px 20px blue);
+}
+
+.grayscale {
+filter: grayscale(100%);
+}
+
+.hue-rotate {
+filter: hue-rotate(90deg);
+}
+
+.invert {
+filter: invert(75%);
+}
+
+.opacity {
+filter: opacity(25%);
+}
+
+.saturate {
+filter: saturate(30%);
+}
+
+.sepia {
+filter: sepia(60%);
+}
